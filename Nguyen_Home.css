@@ -1,0 +1,74 @@
+section img{
+    box-shadow:8px 8px 8px teal;
+}
+section .thumbnail{
+    border: solid 4px gray;
+}
+html .row{
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+section{
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    color: white;
+}
+@keyframes name {
+    0%   {color:lightblue; left:-500px; top:0px; text-shadow: none;}
+    25%  {color:lightblue; left:0px; top:0px; text-shadow:  none;}
+    100% {color:white; text-shadow: 8px 8px 8px teal}
+}
+header h1{
+    position: relative;
+    animation-name: name;
+    animation-duration: 3s;
+    color: white;
+    text-shadow: 8px 8px 8px teal;
+}
+footer .thumbnail{
+    border-radius: 25px;
+    border: solid 3px lightgray;
+}
+
+@keyframes fontbulger {
+  0%, 100% {
+    font-size: 12px;
+  }
+  50% {
+    font-size: 18px;
+  }
+}
+
+#bulge:hover {
+   animation: fontbulger 2s infinite;
+}
+body {
+    background-color: lightblue;
+}
+video{
+    display: block;
+    margin: 0 auto;
+    border: solid 12px darkcyan;
+}
+.jumbotron{
+    text-align: center;
+    background-color: lightskyblue;
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 600px) {
+
+footer .thumbnail{
+    float: none;
+    margin: auto;
+    display: block;
+}
+video{
+    width: 500px;
+    height: 300px;
+}
+header{
+    text-align: center;
+}
+section img{
+    box-shadow:8px 8px 8px teal;
+    display: block;
+    margin:0 auto;
+}
+}

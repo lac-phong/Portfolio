@@ -1,0 +1,59 @@
+li{
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+section{
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+.jumbotron{
+    background-color: lightskyblue;
+}
+@keyframes name {
+    0%   {color:red; left:-500px; top:0px;}
+    25%  {color:white; left:0px; top:0px;}
+    50%  {color:white;}
+    75%  {color:white;}
+    100% {color:white;}
+}
+
+header h1{
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    position: relative;
+    animation-name: name;
+    animation-duration: 10s;
+    color: white;
+    text-shadow: 8px 8px 8px teal;
+}
+footer .thumbnail{
+    border-radius: 25px;
+    border: solid 3px lightgray;
+}
+@keyframes fontbulger {
+  0%, 100% {
+    font-size: 12px;
+  }
+  50% {
+    font-size: 18px;
+  }
+}
+
+#bulge:hover {
+   animation: fontbulger 2s infinite;
+}
+body{
+    background-color: lightblue;
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 600px) {
+
+footer .thumbnail{
+    float: none;
+    margin: auto;
+    display: block;
+}
+video{
+    width: 500px;
+    height: 300px;
+}
+header{
+    text-align: center;
+}
+}
