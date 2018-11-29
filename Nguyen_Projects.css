@@ -70,3 +70,10 @@ header{
 img{
     margin-right: 100px;
 }
+video{
+    margin-left: 300px;
+}
+.center{
+    text-align: center;
+    margin-left: 240px;
+}
