@@ -82,3 +82,8 @@ img{
     text-align: center;
     margin-left: 240px;
 }
+video {
+    transform: rotate(-90deg);
+    margin-top: -125px;
+    margin-left: 225px;
+}
