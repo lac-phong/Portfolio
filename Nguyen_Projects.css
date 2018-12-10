@@ -1,3 +1,6 @@
+img{
+    margin-right: 100px;
+}
 li{
     font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
@@ -17,6 +20,11 @@ section a:active{
     color: purple;
     background-color: white;
     text-decoration: underline;
+}
+video {
+    transform: rotate(-90deg);
+    margin-top: -125px;
+    margin-left: 225px;
 }
 @keyframes name {
     0%   {color:red; left:-500px; top:0px;}
@@ -69,9 +77,6 @@ header{
 }
 img{
     margin-right: 100px;
-}
-video{
-    margin-left: 300px;
 }
 .center{
     text-align: center;
