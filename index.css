@@ -52,23 +52,29 @@ video{
     text-align: center;
     background-color: lightskyblue;
 }
-@media only screen and (min-device-width: 320px) and (max-device-width: 600px) {
+@media screen and (orientation: portrait){
 
 footer .thumbnail{
-    float: none;
-    margin: auto;
+    max-width: 90%;
     display: block;
-}
-video{
-    width: 500px;
-    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
 }
 header{
+    max-width: 90%;
     text-align: center;
 }
 section img{
+    max-width: 90%;
     box-shadow:8px 8px 8px teal;
     display: block;
     margin:0 auto;
+}
+#center{
+    max-width: 90%;
+    display: block;
+    margin:0 auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 }
