@@ -1,90 +1,622 @@
-<!doctype html>
-<html>
-    <head>
-        <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.css" type="text/css"/>
-        <link rel="stylesheet" href="index.css" type="text/css"/>
-        <title>I Am Lac-Phong Nguyen</title>
-    </head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
 
-    <body>
+    <!-- Basic Page Needs
+    ================================================== -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-        <header class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <h1>Lac-Phong Nguyen</h1>
-                </div>
-                <div class="pull-right" id="center">
-                    <ul class="nav nav-pills">
-                        <li class="active">
-                            <a href="index.html"><span id="bulge">All</span></a>
-                        </li>
-                        <li>
-                            <a href="Nguyen_AboutMe.html"><span id="bulge">About Me</span></a>
-                        </li>
-                        <li>
-                            <a href="Nguyen_Work.html"><span id="bulge">Work Experience</span></a>
-                        </li>
-                        <li>
-                            <a href="Nguyen_Projects.html"><span id="bulge">Projects</span></a>
-                        </li>
-                        <li>
-                            <a href="Nguyen_ContactMe.html"><span id="bulge">Contact Me</span></a>
-                        </li>
-                    </ul>
-                </div>
+    <title>Portfolio</title>
+
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="keywords" content="">
+
+    <!-- Mobile Specific Metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+
+    <!-- Favicon
+    ================================================== 
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon.png">
+    -->
+    <!-- Stylesheets
+    ================================================== -->
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/responsive.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+<body>
+
+    <header id="masthead" class="site-header" data-anchor-target=".hero" data-top="background: rgba(255,255,255,0); padding: 30px 0; box-shadow: 0px 0px 20px 6px rgba(0, 0, 0, 0);" data-top-bottom="background: rgba(255,255,255,1); padding: 10px 0; box-shadow: 0px 0px 20px 6px rgba(0, 0, 0, 0.2);">
+        <nav id="primary-navigation" class="site-navigation">
+            <div class="container">
+                <div class="navbar-header page-scroll">
+
+                    <button type="button" class="navbar-toggle collapsed" data-target="#portfolio-perfect-collapse" aria-expanded="false" >
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    
+                    <a href="#hero" class="site-logo"><img src="assets/img/mylogo.png" alt="logo"></a>
+
+                </div><!-- /.navbar-header -->
+
+                <div class="main-menu" id="portfolio-perfect-collapse">
+
+                    <ul class="nav navbar-nav navbar-right">
+
+                        <li class="page-scroll"><a href="#hero">Home</a></li>
+                        <li class="page-scroll"><a href="#about">About</a></li>
+                        <li class="page-scroll"><a href="#service">Experience</a></li>
+                        <li class="page-scroll"><a href="#portfolio">Projects</a></li>
+                        <li class="page-scroll"><a href="#contact">Contact</a></li>
+                        
+                    </ul><!-- /.navbar-nav -->
+
+                </div><!-- /.navbar-collapse -->
+
             </div>
-        </header>
-    
-        <section class="container">
+        </nav><!-- /.primary-navigation -->
+    </header><!-- /#header -->
+
+    <div id="hero" class="hero">
+        <div class="container">
             <div class="row">
-                <div class="main">
-                    <div class="col-md-4">
-                        <img class="thumbnail" src="Images/piano.jpg" alt="Piano"/>
-                    </div>
-                    <div class="col-md-4">
-                        <img class="thumbnail" src="Images/family.jpg" alt="My Family"/>
-                    </div>
-                    <div class="col-md-4">
-                        <img class="thumbnail" src="Images/basketball.jpg" alt="Pho"/>
-                    </div>
-                    <div class="col-md-4">
-                        <img class="thumbnail" src="Images/vietnamflag.jpg" alt="Pho"/>
-                    </div>
-                    <div class="col-md-4">
-                        <img class="thumbnail" src="Images/studio_ghibli.jpg" alt="Studio Ghibli"/>
-                    </div>            
-                    <div class="col-md-4">
-                        <img class="thumbnail" src="Images/me.jpg" alt="Lac-Phong Nguyen"/>
-                    </div>
-                </div>
-            </div>
-            <!--<div class="jumbotron container">
-                <h1>Me playing the piano!</h1>
-                <h3><b>Joe Hisaishi - Howl's Moving Castle</b></h3>
-                <video width="900" controls>
-                    <source src="Videos/Howl's_Moving_Castle.MOV"/>
-                    Your browser does not support HTML5 video
-                </video>
-                <h3><b>Joe Hisaishi - Path of the Wind</b></h3>
-                <video width="900" controls>
-                    <source src="Videos/Path_Of_The_Wind.MOV"/>
-                    Your browser does not support HTML5 video
-                </video>
-            </div>-->
-        </section>
-    
-        <footer class="container">
-            <div class="row">
+
                 <div class="col-md-6">
-                    <a class="row col-md-3" href="mailto:quanglac03@gmail.com" target="blank" alt="Email"><img class="thumbnail" src="Images/email.png"/></a>
-                    <a class="row col-md-3" href="https://www.facebook.com/quang.lac.5036" target="blank" alt="Facebook"><img class="thumbnail" src="Images/facebook.png"/></a>
+                    <h1>Lac-Phong Nguyen</h1>
+                    <div class="page-scroll">
+                        <p class="job-title">Dublin High School Senior</p>
+                        <a href="#contact" class="btn btn-fill ">Contact me</a>
+                        <div class="clearfix visible-xxs"></div>
+                        <a href="#portfolio" class="btn btn-border">Explore more</a>
+                    </div>
                 </div>
-                <div class="pull-right">
-                    <p>Dublin High School</p>
+            
+                <div class="col-md-6 text-right">
+                </div>
+
+            </div>
+        </div>
+    </div><!-- /.hero -->
+
+    <main id="main" class="site-main">
+
+        <section id="about" class="site-section section-about text-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-md-offset-3">
+                        <h2>About</h2>
+                        <img src="assets/img/lines.svg" class="img-lines" alt="lines">
+                        <p></p>
+                        <img src="assets/img/profilepic.jpg" class="profile" alt="me"/>
+                        <p></p>
+                        <p>Hi! I'm Lac-Phong Nguyen. I'm currently a senior at Dublin High School and an aspiring software developer. 
+                            I found my passion for computers early on in life due to my uncles and dad being heavily invested in electronics. 
+                            As early as 4 years old I was already using a laptop proficiently to surf the web and ever since 
+                            I've been hooked on technology and its capabilities. Throughout my high school career, I have taken 
+                            many opportunities to further my knowledge within the field of computers and technology, taking engineering courses 
+                            like CSE, CSA, and Digital Electronics as well as enrolling in the Dublin High School's Engineering and Design Academy. 
+                            As of right now, I am looking into pursuing a degree in computer science in college where I hope that I will learn even more 
+                            about the world of computers and engineering. </p>
+                        <a href="assets/resume/resume.pdf" class="btn btn-fill" target="_blank" download>Download my resume</a>
+                    </div>
                 </div>
             </div>
-        </footer>
+        </section><!-- /.secton-about -->
+
+        <section class="site-section section-skills">
+            <div class="container">
+                <div class="text-center">
+                    <h3>My Skills</h3>
+                    <img src="assets/img/lines.svg" class="img-lines" alt="lines">
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="skill">
+                            <h4>Html/css</h4>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" data-transitiongoal="80"></div><!-- /.progress-bar -->
+                            </div><!-- /.progress -->
+                        </div><!-- /.skill -->
+                        <div class="skill">
+                            <h4>Python</h4>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" data-transitiongoal="85"></div><!-- /.progress-bar -->
+                            </div><!-- /.progress -->
+                        </div><!-- /.skill -->
+                    </div>
+                    <div class="col-md-4">
+                        <div class="skill">
+                            <h4>Javascript</h4>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" data-transitiongoal="50"></div><!-- /.progress-bar -->
+                            </div><!-- /.progress -->
+                        </div><!-- /.skill -->
+                    </div>
+                    <div class="col-md-4">
+                        <div class="skill">
+                            <h4>Php</h4>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" data-transitiongoal="45"></div><!-- /.progress-bar -->
+                            </div><!-- /.progress -->
+                        </div><!-- /.skill -->
+                        <div class="skill">
+                            <h4>Java</h4>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" data-transitiongoal="75"></div><!-- /.progress-bar -->
+                            </div><!-- /.progress -->
+                        </div><!-- /.skill -->
+                    </div>
+                </div>
+            </div>
+        </section><!-- /.secton-skills -->
+      <section id="service" class="site-section section-services overlay">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h3>Engineering Academy</h3>
+                        <img src="assets/img/lines.svg" class="img-lines" alt="lines">
+                    </div>
+                    <div class="col-md-12">
+                      <div class="service">
+                        <h4>Guest Speakers</h4>
+                        <ul>
+                          <dl>
+                            <li class="bigger">Maynard Holliday</li>
+                            <dd class="description">I was present in one of his presentations at Dublin High and was deeply inspired and in awe of the amazing things that programming and robots are 
+                              doing throughout the world. His presentation opened my eyes to the possibilities and impacts that robotics and computer science has on the world.</dd>
+                          </dl>
+
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="col-md-12">
+                      <div class="service">
+                        <h4>Field Trips</h4>
+                        <ul>
+                          <dl>
+                            <li class="bigger">Stanford & Computer History Museum</li>
+                            <dd class="description">I took a tour around Stanford and got to visit the Computer museum where I learned a lot about the nature of computers and the journey from nothing 
+                              into everything! I was dumbstruck by the vast collective knowledge that was needed to get to the personal computer we have today.</dd>
+                          </dl>
+                          <dl>
+                            <li class="bigger">DSRSD - Wastewater Treatment Tour</li>
+                            <dd class="description">This tour took me on a journey around the Dublin San Ramon Services facility, educating me about how our water is treated, where our waste goes from the toilet,
+                              as well as how to take care of ourselves at home in regards to water usage and waste management. What especially interested me was how in one section of the facility they completely
+                              purified the water from all waste (creating distilled water). This portion of the field trip was really fascinating to me because of the method in which they did this. They used This
+                              wooden tube which had really really <bold>really</bold> small holes at the bottom in which the water was basically forced through. The device served as a really neat filter that took
+                              out all the leftover particles within the water creating a substance so pure it was poisonous to us. One thing that I didn't like about the trip was the stink of the waste in the water.
+                              But I guess thats a given.
+                            </dd>
+                          </dl>
+                          <dl>
+                            <li class="bigger">BART & Workday</li>
+                            <dd class="description">This was by far the most fun field trip I had been on throughout my entire high school career. On top of hanging out with some of my close friends, I met the most
+                              grounded and real people in the field on this one trip. Every person I talked to gave me actualy insight on what it was like in the work force, good sides and all. On top of the priceless 
+                              information about the industry, the people at Bart also gave us some merch and gifts for coming on the field trip, which is always cool. At Workday, we got to go inside their facility 
+                              (which is absolutely gorgeous) and immerse ourselves in the environment that all these professionals worked in everyday. It was really cool to see how focused everyone was, but also how
+                              some parts of the workplace were reserved for goofy and fun activities, like voting on who will die next in Game of Thrones. Overall, really fun trip.
+                            </dd>
+                          </dl>
+                          <dl>
+                            <li class="bigger">SJSU & SCU</li>
+                            <dd class="description">I found this trip to be really cool mostly because it was the first time I ever visited a college. The amount of history and wide range of opportunities within
+                              both SJSU and SCU were amazing to witness in person and this trip definitely put SJSU up there as one of my top safeties for college. This trip also showed me how extremely expensive college
+                              can get. Visiting SCU was super cool because the campus was really big and the facilities within it was really modern and cozy to be in. However, the tuition is like $30k. Yup, not going there.
+                            </dd>
+                          </dl>
+                          <dl>
+                            <li class="bigger">Roche Career Day</li>
+                            <dd class="description">Because of COVID-19, field trips were now made virtual. And although these trips are not nearly as immersive and interactive, they are definitely still as
+                              educational, if not more, than before. I learned a variety of things in the Roche Career Day. We first learned about the process in which they made a test for COVID-19 and the challenges
+                              with that. We also got to get insight on the thought process in which they decide to make a product (first coming up with an idea, seeing if its profitable, if its feasible, etc.). Overall
+                              this field trip was really insightful and helpful in understanding how and why corporations go about making products.
+                            </dd>
+                          </dl>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="col-md-12">
+                      <div class="service">
+                        <h4>Mentorship Program</h4>
+                        <p>I was able to meet and talk to many experienced and wonderful people through the DEDA Mentorship program. 
+                          My mentor, John So—a senior project manager at Oracle—taught me numerous skills, ranging from how to write a 
+                          proper resume to how to sell both my skills and personality to those around me. He also took it upon himself to 
+                          keep me on track in school and was a major motivation factor for me junior year of high school. Though the Mentorship program 
+                          lasted for only a year, I learned so many priceless lessons and I hope to continue to learn many more in the near future
+                          in college and eventually in the work force.
+                          </p>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="portfolio" class="site-section section-portfolio">
+            <div class="container">
+                <div class="text-center">
+                    <h3>My Projects</h3>
+                    <img src="assets/img/lines.svg" class="img-lines" alt="lines">
+                </div>
+                <div class="row">
+                    <div class="col-md-4 col-xs-6">
+                        <div class="portfolio-item">
+                            <img src="assets/img/scratch.PNG" class="img-res" alt="goofygumball">
+                            <div class="portfolio-item-info">
+                                <h4>Goofy Gumball</h4>
+                                <a href="#" data-toggle="modal" data-target="#portfolioItem1"><span class="glyphicon glyphicon-eye-open"></span></a>
+                                <a href="#"><span class="glyphicon glyphicon-link"></span></a>
+                            </div><!-- /.portfolio-item-info -->
+                        </div><!-- /.portfolio-item -->
+                    </div>
+                    <div class="col-md-4 col-xs-6">
+                        <div class="portfolio-item">
+                            <img src="assets/img/bill_face.png" class="img-res" alt="billmanipulated">
+                            <div class="portfolio-item-info">
+                                <h4>Image Manipulation</h4>
+                                <a href="#" data-toggle="modal" data-target="#portfolioItem2"><span class="glyphicon glyphicon-eye-open"></span></a>
+                                <a href="#"><span class="glyphicon glyphicon-link"></span></a>
+                            </div><!-- /.portfolio-item-info -->
+                        </div><!-- /.portfolio-item -->
+                    </div>
+                    <div class="col-md-4 col-xs-6">
+                        <div class="portfolio-item">
+                            <img src="assets/img/car.png" class="img-res" alt="car">
+                            <div class="portfolio-item-info">
+                                <h4>Hytrojan Horse</h4>
+                                <a href="#" data-toggle="modal" data-target="#portfolioItem3"><span class="glyphicon glyphicon-eye-open"></span></a>
+                                <a href="#"><span class="glyphicon glyphicon-link"></span></a>
+                            </div><!-- /.portfolio-item-info -->
+                        </div><!-- /.portfolio-item -->
+                    </div>
+                    <div class="col-md-4 col-xs-6">
+                        <div class="portfolio-item">
+                            <img src="assets/img/bridge.png" class="img-res" alt="bridge">
+                            <div class="portfolio-item-info">
+                                <h4>West Point Bridge</h4>
+                                <a href="#" data-toggle="modal" data-target="#portfolioItem4"><span class="glyphicon glyphicon-eye-open"></span></a>
+                                <a href="#"><span class="glyphicon glyphicon-link"></span></a>
+                            </div><!-- /.portfolio-item-info -->
+                        </div><!-- /.portfolio-item -->
+                    </div>
+                    <div class="col-md-4 col-xs-6">
+                        <div class="portfolio-item">
+                            <img src="assets/img/interactive_chart.PNG" class="img-res" alt="chart">
+                            <div class="portfolio-item-info">
+                                <h4>CSA Seating Chart</h4>
+                                <a href="#" data-toggle="modal" data-target="#portfolioItem5"><span class="glyphicon glyphicon-eye-open"></span></a>
+                                <a href="#"><span class="glyphicon glyphicon-link"></span></a>
+                            </div><!-- /.portfolio-item-info -->
+                        </div><!-- /.portfolio-item -->
+                    </div>
+                    <div class="col-md-4 col-xs-6">
+                        <div class="portfolio-item">
+                            <img src="assets/img/blackadam.PNG" class="img-res" alt="blackadam">
+                            <div class="portfolio-item-info">
+                                <h4>Black Adam!</h4>
+                                <a href="#" data-toggle="modal" data-target="#portfolioItem6"><span class="glyphicon glyphicon-eye-open"></span></a>
+                                <a href="#"><span class="glyphicon glyphicon-link"></span></a>
+                            </div><!-- /.portfolio-item-info -->
+                        </div><!-- /.portfolio-item -->
+                    </div>
+                </div>
+                <div class="row">
+                    <p></p>
+                    <p></p>
+                    <div class="col-md-4 col-xs-6">
+                        <div class="portfolio-item">
+                            <img src="assets/img/p127.PNG" class="img-res" alt="rockpaperscissors">
+                            <div class="portfolio-item-info">
+                                <h4>Rock Paper Scissors</h4>
+                                <a href="#" data-toggle="modal" data-target="#portfolioItem7"><span class="glyphicon glyphicon-eye-open"></span></a>
+                                <a href="#"><span class="glyphicon glyphicon-link"></span></a>
+                            </div><!-- /.portfolio-item-info -->
+                        </div><!-- /.portfolio-item -->
+                    </div>
+                    <div class="col-md-4 col-xs-6">
+                        <div class="portfolio-item">
+                            <img src="assets/img/letsgoseniors.PNG" class="img-res" alt="">
+                            <div class="portfolio-item-info">
+                                <h4>Let's Go Seniors!</h4>
+                                <a href="#" data-toggle="modal" data-target="#portfolioItem8"><span class="glyphicon glyphicon-eye-open"></span></a>
+                                <a href="#"><span class="glyphicon glyphicon-link"></span></a>
+                            </div><!-- /.portfolio-item-info -->
+                        </div><!-- /.portfolio-item -->
+                    </div>
+                </div>
+                
+            </div>
+        </section><!-- /.secton-portfolio -->
+        <section id="contact" class="site-section section-form text-center">
+            <div class="container">
+
+                <h3>Contact</h3>
+                <img src="assets/img/lines.svg" class="img-lines" alt="lines">
+                <form>
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <input type="text" name="name" class="form-control mt-x-0" placeholder="Name" required>
+                        </div>
+                        <div class="col-sm-6">
+                            <input type="email" name="email" class="form-control" placeholder="Email" required>   
+                        </div>
+                        <div class="col-sm-12">
+                            <textarea name="message" id="mesaage" class="form-control" placeholder="Message" required></textarea>
+                        </div>
+                    </div>
+                    <button href="mailto:quanglac30@gmail.com" class="btn btn-border" type="submit">Send<span class="glyphicon glyphicon-send"></span></button>
+                </form>
+            </div>
+        </section><!-- /.section-form -->
+
+    </main><!-- /#main -->
+
+    <footer id="colophon" class="site-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4 col-xs-12">
+                    <a class="icon facebook-bg" href="#"><i class="icon-facebook"></i></a>
+                    <a class="icon twitter-bg" href="#"><i class="icon-twitter"></i></a>
+                    <a class="icon gplus-bg" href="#"><i class="icon-linkedin"></i></a>
+                    <a class="icon linkedin-bg" href="#"><i class="icon-gplus"></i></a>
+                </div>
+                <div class="col-sm-4 col-sm-offset-0 col-xs-6 col-xs-offset-3"><p class="copyright">2017. All Rights Reserved</p></div>
+                <div class="col-sm-4 col-xs-3">
+                    <div class="text-right page-scroll">
+                        <a class="icon icon-up-bg" href="#hero"><i class="icon-up"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer><!-- /#footer -->
+
+    <!-- Modals -->
+    <div id="portfolioItem1" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <a class="close" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span></a>
+            <img class="img-res" src="assets/img/scratch.PNG" alt="gumball">
+          </div>
+          <div class="modal-body">
+            <h4 class="modal-title">Revenge of Goofy Gumball</h4>
+            <h3>CSE 6: August 30th 2017</h3>
+            <p>This is my Scratch Project my partner and I worked on in our CSE class. We came up with this idea from brainstorming several game ideas and narrowed 
+              them down by our skillsets. The objective of our project was to make a fun game. We documented this all in our <a href="https://docs.google.com/document/d/1MiyY36Wc6qZsf7YUrahh-eFrdHg3p6fFddGnNfHJnWI/edit?usp=sharing">design notebook</a>. 
+              Since David, my partner, had experience with side-scrolling games on Scratch, we decided to do a side-scrolling adventure game. From there, we came up with this gumball thing and 
+              created a story where these red squares stole gumball's kids and gumball is trying to get them back. We were graded on this project through a rubric and 
+              instructions you can find <a href="https://docs.google.com/document/d/1YHIp8i0F-0V5eVyQZaS30F8D2QTFOKVVJSqlyG0o9J0/edit?usp=sharing">here</a>. This project really helped me grow as a programmer and introduced me to the world of game development.</p>
+          </div>
+          <div class="modal-footer">
+            <a href="https://scratch.mit.edu/projects/172696483" class="btn btn-fill">Visit Page</a>
+          </div>
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <div id="portfolioItem2" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <a class="close" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span></a>
+            <img class="img-res" src="assets/img/bill_face.png" alt="">
+          </div>
+          <div class="modal-body">
+            <h4 class="modal-title">Image Manipulation</h4>
+            <h3>CSE 6: March 25th 2018</h3>
+            <p>The Image Manipulation project is by far one of the hardest but most satisfying projects I have completed in CSE. The task was to utilize the py library and 
+              python to make a program that manipulates images in certain ways. This was the first project where Mr. Brown gave use free reign over our project, not giving 
+              any help unless it was necesscary. With my partner Justin Tsai, we immediately started to brainstorm on a document what was needed and how we were going to finish 
+              the project. We both came into this project completely dumbfounded and at first had no idea what to do. But soon enough we were both able to get a hold of ourselves 
+              and the deeper we dug through the instructions the clearer everything seemed. Since I was a lot more experienced at python than Justin, we decided that I would work 
+              on Python while he focused on the documentation. Our theme for the project was the Clinton family because... we wanted to. The idea was to make a program that made a 
+              protrait of the family with something similar to a frame with a watermark as well as a black and white filter. Though the programming part was definitely challenging, 
+              when I started to do more manipulations the code seemed to become less and less complex and a whole lot more understandable. This project showed me the complexity of 
+              very simple actions in programming, such as black and white filters and borders, and helped me imporve a whole lot in the logic department of programming.</p>
+          </div>
+          <div class="modal-footer">
+            <a href="https://docs.google.com/document/d/1pOJplUNdG3EdEshpQvcW4muWnQnMVmitIMHhXj3MZuE/edit?usp=sharing" class="btn btn-fill">Visit Page</a>
+          </div>
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <div id="portfolioItem3" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <a class="close" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span></a>
+            <img class="img-res" src="assets/img/car.png" alt="">
+          </div>
+          <div class="modal-body">
+            <h4 class="modal-title">Hytrojan Horse</h4>
+            <h3>POE 7: November 15th 2018</h3>
+            <p>The HyTrojan Horse is the name of our hydrogen and solar powered car project for POE. Throughout this project we documented our progress on this document and this chart. 
+              The goal of this project was to construct a car utilizing VEX parts that was able to run using either a solar or hydrogen cell. For this project, I was in charge of the 
+              documentation and assisting the other group members in the construction of our car. This was one of the hardest projects yet in POE, at least to me, because of the variety 
+              of variables that constantly blocked us from achieving our goals. These variables consisted of broken solar panels, broken motors, not powerful enough suns, etc. This was 
+              also the first project where I had personally had to take down and rebuild an idea from scratch. Our original design "Tambibien" was supposed to utilize a 7 to 1 gear ratio, 
+              but because of our janky build and motor configuration, it ultimately failed. We had to fall back to a 1 to 1 gear ratio and a very, very simple build. This project not only 
+              taught me failure, but hope and the power of determination as well, as our group, despite having to restart, put even more effort into our final product, "Paindemine". 
+              In terms of maximum theorhetical speed, "Paindemine" was far from what was thought for "Tambibien". For "paindemine" we had completely abandoned the gear ratio and focused 
+              on a simple working car. But even then, "Paindemine" showed great promise, as it not only worked, but was also faster than a lot of the other competition. Working on this 
+              project, even with its tough situations and problems, was a blast and I had a great time communnicating and working with Darion, Keagan, and Khalil on this project. Check
+              out the video of our car working <a href="https://drive.google.com/file/d/1peq1u-xtVieYlDYqSLDIJd_-wiQyiniy/view?usp=sharing">here</a>!
+            </p>
+          </div>
+          <div class="modal-footer">
+            <a href="https://docs.google.com/document/d/11CRerML1ndcARaovfmmLO2N-ScwT5NAeKjZF_egYgig/edit?usp=sharing" class="btn btn-fill">Visit Page</a>
+          </div>
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <div id="portfolioItem4" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <a class="close" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span></a>
+            <img class="img-res" src="assets/img/bridge.png" alt="">
+          </div>
+          <div class="modal-body">
+            <h4 class="modal-title">West Point Bridge</h4>
+            <h3>POE 7: March 7th 2019</h3>
+            <p>The West Point Bridge project revolved around the use of <a href="https://bridgedesigner.org/">Bridge Designer</a>. This program allowed users to build bridges, using a variety of members, materials, etc. and 
+              simulate how well the bridge performs under real-life scenarios. The goal of this project was to design a working bridge on Bridge Designer that was less than or equal 
+              to the $300,000 budget and 12-24 meters above the water. The performance of the bridge was based on how much stress or tension individual members went through and how 
+              much the bridge bent in the simulation overall. My job in this project was to design my own 2 working bridges and compare them with Micheal's 2 designs. I also had to 
+              collaborate with Michael to work on the Descision Matrix, Bridge modifications, as well as the overall <a href="https://docs.google.com/document/d/1BvStl81Q718omiSDOdYnJaFrMLO2SqGQu2yRCgbriH0/edit?usp=sharing">documentation</a> of the project. For the documentation, I was 
+              responsible for the Design Brief, part of the research, and the Final Justification of the bridge. From this project, I learned the different steps it takes to make 
+              an efficient bridge and understand the loop holes in getting the most efficient bridge. For example, to make the bridges cheaper, using hollow tubes was the most 
+              effective way to maximize performance, however solid tubes were necessary in certain areas if the members were undergoing too much tension. Making the member's surface 
+              area bigger was important if the members were undergoing too much compression and the use of different materials was crucial in the dispersion of forces throughout the 
+              bridge. Overall, I not only took away a better understanding of bridges and the aspects of compression and tension, but also the wonders of collaboration and teamworking 
+              from the modifications and decision matrix I did with Michael. If you want to download our files for Bridge Designer, click the "Download" button.</p>
+          </div>
+          <div class="modal-footer">
+            <a href="https://drive.google.com/drive/folders/162vWxfyURvNcDiw_zpgSfBFjoyk1-6yx?usp=sharing" class="btn btn-fill">Download</a>
+          </div>
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <div id="portfolioItem5" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <a class="close" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span></a>
+            <img class="img-res" src="assets/img/interactive_chart.PNG" alt="">
+          </div>
+          <div class="modal-body">
+            <h4 class="modal-title">Interactive Seating Chart</h4>
+            <h3>APCSA 3: September 12th 2019</h3>
+            <p>The Interactive Seating Chart was our intro Java project that Mr. Kaehms gave us. It utilized the IDE known as <a href="https://www.greenfoot.org/door">GreenFoot</a> which allowed us to play around the concept of 
+              manipulating objects visually. Our task for this project was to create an object of ourselves given where we were seated in the class. Whoever using the program would be 
+              able to click on you, executing a brief animation that was unique and making your object change from sitting position to standing position, then ask you a few questions. 
+              Your object would respond properly and when asked to sit down it would return from standing position to sitting position. The concept of finishing your personal object 
+              was relatively easy because it required very simple java commands to change an object's image from one to another and make it spin around or run around the screen. 
+              However, the complexity of this project was the fact that at the very end, the entire class had to figure out a clean way to push to a single repository in GitHub 
+              without any merge conflicts. This was difficult because it relied on everyone knowing what they were doing. There were many cases in the process of trying to get the 
+              entire code working where a person would accidently merge it into master which messed up everything because we had to keep master clean until the very end (at least for 
+              how our build master wanted things to operate). At the very end we were able to get everything done on time and our classroom was fully functional by the end of this 
+              project. It got everyone to know each other and it opened me to how complex yet fun collaborative coding could be. Our GitHub link for the Interactive Seating Chart 
+              can be found under the "Visit Page" button.</p>
+          </div>
+          <div class="modal-footer">
+            <a href="https://github.com/DHS-CP/P2-InteractiveChart/tree/finalcopy" class="btn btn-fill">Visit Page</a>
+          </div>
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <div id="portfolioItem6" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <a class="close" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span></a>
+            <img class="img-res" src="assets/img/blackadam.PNG" alt="">
+          </div>
+          <div class="modal-body">
+            <h4 class="modal-title">Black Adam!</h4>
+            <h3>APCSA 3: October 12th 2019</h3>
+            <p>The "Black Adam!" project utilized <a href="https://developer.android.com/studio">Android Studio</a> in order to make an app for android devices. Our app is basically an app that serves as a collection of songs you 
+              can click on and look at lyrics. This allows the users to sing along with their friends and family to any song. The app consists of five activities that each served 
+              a different purpose. The login screen allows the user to input their credentials, the genre screen allows the user to choose which genre they want, the song screen 
+              allows the user to choose the songs they want to listen to, the lyric display allows the user to look at the lyrics for the song they chose, and the settings screen 
+              allows the user to change the app's configurations and visual asthetic to their own personal liking. The main part that made this project especially challenging was 
+              getting each activity to interact and change based on what the user chose. To do this I implemented an onClick method that would transport data from one activity to 
+              another so that the next activity would be able to adapt and change based on the information from the pervious activity. Overall, it was a great introduction to the 
+              IDE Android Studio and Java overall and made me realize the endless potential that java held because of it's nature as an object-oriented langauge. The full GitHub 
+              link can be found under "Visit Page"! Also, check out this promotion video our group made for the project: <a href="https://www.youtube.com/watch?v=d8HKlkC2x3w">here</a>!</p>
+          </div>
+          <div class="modal-footer">
+            <a href="https://github.com/Hiesh21/Black-Adam-App-Hrishik-Daylen-Gaurav-LacPhong" class="btn btn-fill">Visit Page</a>
+          </div>
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
     
-    </body>
-    
+    <div id="portfolioItem7" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <a class="close" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span></a>
+              <img class="img-res" src="assets/img/p127.PNG" alt="">
+            </div>
+            <div class="modal-body">
+              <h4 class="modal-title">Rock Paper Scissors</h4>
+              <h3>POE 7: October 21st 2020</h3>
+              <p>The Rock Paper Scissors project was the first project of the year for Digital Electronics. It was in this project that I was able to utilize all that we learned 
+                in the first unit (using <a href="https://www.multisim.com/">Multisim</a>, the wiring on a breadboard with ICs and jumper cables, understanding truth tables, inputs, and outputs). The project's goal was 
+                to make a circuit system that solved any problem. It only required the system to have at least 3 inputs and 1 output. However, I wanted to challenge myself. The 
+                problem or moreover the opportunity my rock paper scissors game is meant to offer is to help kids understand the basics of logic through a rock paper scissors game. 
+                I utilized 4 inputs and 3 outputs (Inputs: rock, paper, scissors, same | Outputs: rock win, paper win, scissor win, tie). Using the basic logic of how rock paper 
+                scissors works, I put together a multisim to base my circuit off of. To see what I did in more detail take a look at my documentation under "Visit Page". The primary takeaway from 
+                this project for me was understanding the entire process of circuiting. Starting out brainstorming the logical equations for the circuit, multisiming, and then 
+                finally putting it all together on the breadboard, it was truly an eye-opening and overall fun experience for me and it got me excited for the future in Digital 
+                Electronics.</p>
+            </div>
+            <div class="modal-footer">
+              <a href="https://drive.google.com/drive/folders/1yRPsuLY_pCCQcsqwpLxLbFLJ4BcTkxVH?usp=sharing" class="btn btn-fill">Visit Page</a>
+            </div>
+          </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+      </div><!-- /.modal -->
+
+      <div id="portfolioItem8" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <a class="close" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span></a>
+              <img class="img-res" src="assets/img/letsgoseniors.PNG" alt="">
+            </div>
+            <div class="modal-body">
+              <h4 class="modal-title">Let's Go Seniors!</h4>
+              <h3>POE 7: March 5th 2021</h3>
+              <p>This was the project I made for Unit 2.3 of my Digital Electronics class. The core concept behind the project was to make a fun message board that would 
+                make my fellow seniors smile. This is why I named the project "Let's Go Seniors". I first made a simulation of the project (on Multisim) to get a better 
+                image of how it would all work. This simulation would then be programmed into a PLD that would then execute the logic I created in the simulation. Through 
+                a 7-segment display and PLD, I programmed the message “Senior Year Pog Pog” into the PLD to display on the breadboard. The overall circuit displays one letter 
+                at a time and I utilized the internal clock of the PLD to make a 4-bit counter that iterates through all the inputs and outputs of the AOI logic in the correct order. 
+                The goal of this message is to rejuvenate the stressed seniors in high school with energy and get them to become motivated to finish off school and prepare themselves 
+                for the exciting experiences in college in the upcoming year. Overall, the project was really fun and it opened my eyes to the possibilities of a circuit board through 
+                the use of PLDs. Check out my documentation, simulation, and videos through the "Visit Page" button!</p>
+            </div>
+            <div class="modal-footer">
+              <a href="https://drive.google.com/drive/folders/1O6BblGOHALkKeRdPosgxwrTBjkwej8UD?usp=sharing" class="btn btn-fill">Visit Page</a>
+            </div>
+          </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+      </div><!-- /.modal -->
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <script src="assets/js/skrollr.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-progressbar/0.9.0/bootstrap-progressbar.min.js"></script>
+    <script src="assets/js/jquery.countTo.min.js"></script>
+    <script src="assets/js/script.js"></script>
+  
+</body>
 </html>
